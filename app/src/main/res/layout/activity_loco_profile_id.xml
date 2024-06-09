@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="8"
+			android:text="Modify Profiles"
+			android:gravity="center"
+			android:textStyle="bold"
+			android:textSize="20sp"
+			android:paddingLeft="15dp"/>
+
+		<Switch
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="2"
+			android:paddingRight="10dp"
+			android:id="@+id/ModifyProfiles"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName1"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID1"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID1"/>
+				
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName2"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID2"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID2"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName3"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID3"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID3"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName4"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID4"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID4"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName5"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID5"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID5"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName6"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID6"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID6"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName7"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID7"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID7"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName8"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID8"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID8"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName9"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID9"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID9"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName10"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID10"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID10"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName11"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID11"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID11"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName12"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID12"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID12"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName13"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID13"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID13"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName14"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID14"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID14"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName15"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID15"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID15"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName16"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID16"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID16"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName17"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID17"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID17"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName18"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID18"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID18"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName19"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID19"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID19"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName20"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID20"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID20"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName21"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID21"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID21"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName22"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID22"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID22"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName23"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID23"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID23"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName24"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID24"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID24"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:layout_margin="10dp">
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserName25"/>
+
+				<EditText
+					android:layout_width="0dp"
+					android:inputType="textPersonName"
+					android:layout_height="wrap_content"
+					android:layout_weight="2"
+					android:ems="10"
+					android:id="@+id/UserID25"/>
+
+				<Button
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1.5"
+					android:text="Apply"
+					android:id="@+id/ApplyID25"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

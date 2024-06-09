@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "644085270933",
+    "firebase_url": "https://loco-watching-default-rtdb.firebaseio.com",
+    "project_id": "loco-watching",
+    "storage_bucket": "loco-watching.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644085270933:android:3b61d0aad891482dfa4e9c",
+        "android_client_info": {
+          "package_name": "com.teamsky.loco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644085270933-u5cfdfdc1h8b0qmeg08mnnep5balj8ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhj3AJnxn-TbVqaTOIQ-WHt2xpCw6qQdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644085270933-u5cfdfdc1h8b0qmeg08mnnep5balj8ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Loco Login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:shadowColor="#000000"
+            android:shadowDx="5.0"
+            android:shadowDy="5.0"
+            android:shadowRadius="5.0"
+            android:textColor="#E91F12"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tabBar">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile"
+                    android:background="@drawable/launcher_icon"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile1"
+                    android:background="@drawable/launcher_icon_1"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile2"
+                    android:background="@drawable/launcher_icon_2"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile3"
+                    android:background="@drawable/launcher_icon_3"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile4"
+                    android:background="@drawable/launcher_icon_4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile5"
+                    android:background="@drawable/launcher_icon_5"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile6"
+                    android:background="@drawable/launcher_icon_6"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile7"
+                    android:background="@drawable/launcher_icon_7"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile8"
+                    android:background="@drawable/launcher_icon_8"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile9"
+                    android:background="@drawable/launcher_icon_9"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile10"
+                    android:background="@drawable/launcher_icon_10"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile11"
+                    android:background="@drawable/launcher_icon_11"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile12"
+                    android:background="@drawable/launcher_icon_12"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile13"
+                    android:background="@drawable/launcher_icon_13"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile14"
+                    android:background="@drawable/launcher_icon_14"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile15"
+                    android:background="@drawable/launcher_icon_15"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile16"
+                    android:background="@drawable/launcher_icon_16"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile17"
+                    android:background="@drawable/launcher_icon_17"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile18"
+                    android:background="@drawable/launcher_icon_18"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile19"
+                    android:background="@drawable/launcher_icon_19"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile20"
+                    android:background="@drawable/launcher_icon_20"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile21"
+                    android:background="@drawable/launcher_icon_21"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile22"
+                    android:background="@drawable/launcher_icon_22"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile23"
+                    android:background="@drawable/launcher_icon_23"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile24"
+                    android:background="@drawable/launcher_icon_24"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile25"
+                    android:background="@drawable/launcher_icon_25"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile26"
+                    android:background="@drawable/launcher_icon_26"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile27"
+                    android:background="@drawable/launcher_icon_27"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile28"
+                    android:background="@drawable/launcher_icon_28"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile29"
+                    android:background="@drawable/launcher_icon_29"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile30"
+                    android:background="@drawable/launcher_icon_30"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile31"
+                    android:background="@drawable/launcher_icon_31"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile32"
+                    android:background="@drawable/launcher_icon_32"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile33"
+                    android:background="@drawable/launcher_icon_33"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile34"
+                    android:background="@drawable/launcher_icon_34"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile35"
+                    android:background="@drawable/launcher_icon_35"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile36"
+                    android:background="@drawable/launcher_icon_36"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile37"
+                    android:background="@drawable/launcher_icon_37"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile38"
+                    android:background="@drawable/launcher_icon_38"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile39"
+                    android:background="@drawable/launcher_icon_39"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile40"
+                    android:background="@drawable/launcher_icon_40"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile41"
+                    android:background="@drawable/launcher_icon_41"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile42"
+                    android:background="@drawable/launcher_icon_42"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile43"
+                    android:background="@drawable/launcher_icon_43"/>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile44"
+                    android:background="@drawable/launcher_icon_44"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/LocoProfile45"
+                    android:background="@drawable/launcher_icon_45"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=""/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

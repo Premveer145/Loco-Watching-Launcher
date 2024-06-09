@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/wallpaper"
+	android:orientation="vertical">
+
+    <LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dp">
+
+        <TextView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:shadowRadius="5.0"
+			android:textSize="30sp"
+			android:shadowColor="#000000"
+			android:textColor="#E91F12"
+			android:shadowDx="5.0"
+			android:shadowDy="5.0"
+			android:text="App Manager"
+			android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:padding="20dp">
+
+        <LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Play Store" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/PlayStoreSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Play Service" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/PlayServiceSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Keyboard" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/KeyboardSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Play Partner" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/PlayPartnerSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Bluetooth" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/BluetoothSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Camera" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/CameraSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Gallery" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/GallerySwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Message" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/MessageSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Subscibe" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/SubscribeSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Via Browser" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/ViaSwitch" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="8"
+					android:text="File Manager" />
+
+                <Button
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="3"
+					android:id="@+id/FilesBtn"
+					android:text="OPEN" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Original Launcher" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/LauncherSwitch" />
+
+                <Button
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="3"
+					android:id="@+id/LauncherBtn"
+					android:text="OPEN" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <TextView
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_weight="6"
+					android:text="Magisk Manager" />
+
+                <Switch
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="2"
+					android:id="@+id/MagiskSwitch" />
+
+                <Button
+					android:layout_height="wrap_content"
+					android:layout_width="0dp"
+					android:layout_weight="3"
+					android:id="@+id/MagiskBtn"
+					android:text="OPEN" />
+
+            </LinearLayout>
+
+            <LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+                android:layout_marginBottom="10.0dip">
+
+                <Button
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:id="@+id/DisableAllBtn"
+					android:text="Disable All" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
